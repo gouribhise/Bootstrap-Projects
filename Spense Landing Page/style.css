@@ -27,6 +27,10 @@ ul {
   background-image: url("./images/Phone Mockup (Desktop).png");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #f0eeeb;
+}
+a {
+  color: black;
 }
 #escrow-text {
   margin-right: -24px;
