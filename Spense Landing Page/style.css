@@ -3,7 +3,26 @@
   height: 70px;
   padding-bottom: 2%;
 }
-
+header > p {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 0.4rem;
+  padding: 1%;
+}
+header > p > a {
+  color: white;
+}
+#escrow {
+  background-image: url("./images/Phone Mockup (Desktop).png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#escrow-text {
+  margin-right: -24px;
+  width: 50%;
+  margin-left: -100px;
+}
 #editor_img {
   width: 50vw;
   height: 50vh;
