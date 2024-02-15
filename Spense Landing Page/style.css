@@ -41,3 +41,18 @@ a {
   width: 50vw;
   height: 50vh;
 }
+.ft {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  #escrow {
+    background-image: none;
+    background-color: #f0eeeb;
+  }
+}
