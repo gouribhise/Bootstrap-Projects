@@ -3,6 +3,9 @@
   height: 70px;
   padding-bottom: 2%;
 }
+header {
+  background-color: #f0eeeb;
+}
 header > p {
   background-color: black;
   color: white;
@@ -12,6 +15,13 @@ header > p {
 }
 header > p > a {
   color: white;
+}
+ul {
+  list-style-image: url("./images/Checkmark.svg");
+}
+
+.hero-form > form > input[type="text"] {
+  width: 50%;
 }
 #escrow {
   background-image: url("./images/Phone Mockup (Desktop).png");
