@@ -1,6 +1,10 @@
-.main {
+body {
   background-color: #f6f6f6;
+
   height: 100vh;
+}
+.nav {
+  background-color: white;
 }
 .container-fluid {
   padding: 0 !important;
@@ -11,4 +15,12 @@
 .col {
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+article {
+  width: 80%;
+  margin-bottom: 4%;
+  padding: 5%;
+  background-color: white;
+  border-radius: 10px;
 }
