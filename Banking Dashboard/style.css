@@ -85,10 +85,35 @@ article {
   margin-left: -2vw;
 }
 .offers {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  border: 2px outset indigo;
+  margin-left: 12px;
+  opacity: 0.8;
 }
+.offers > p {
+  margin-top: 10px;
+  font-size: 0.1rem;
+  color: white;
+  font-weight: bold;
+}
+#offer1 {
+  background-image: url("images/credit.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+  border-radius: 25px;
+}
+#offer2 {
+  background-image: url("images/calc.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+  border-radius: 25px;
+}
+#offer3 {
+  background-image: url("images/phone.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+  border-radius: 25px;
+}
+
 #spending::-moz-progress-bar {
   background-image: linear-gradient(
     to right,
