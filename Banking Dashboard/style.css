@@ -18,19 +18,104 @@ body {
 }
 
 article {
-  width: 100%;
   margin-bottom: 4%;
   padding: 5%;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 25px;
+}
+.accounts > div > div > p {
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+.badge {
+  width: 100px;
+  height: 40px;
+}
+#bd1 {
+  background-image: linear-gradient(to right, red, yellow);
+}
+#bd2 {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+}
+#bd3 {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(11, 187, 119)
+  );
+}
+
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-discover {
+  font-size: 8px;
+}
+
+.fa-bitcoin {
+  color: orange;
+}
+.fa-litecoin-sign {
+  color: green;
+}
+.fa-neos {
+  color: darkblue;
+}
+.fa-eye-slash {
+  color: black;
+}
+.bt-lf {
+  font-size: xx-small;
 }
 .user_img {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 3vw;
+  height: 6vh;
+}
+.users {
+  padding: 6%;
+}
+.users > p {
+  font-size: 0.7rem;
+  margin-top: -10px;
+  margin-left: -2vw;
 }
 .offers {
   width: 100px;
   height: 100px;
   object-fit: cover;
+}
+#spending::-moz-progress-bar {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  width: 10px;
+  border: 1px solid red;
+}
+
+.advt {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgb(174, 85, 216)
+  );
+  color: white;
+}
+.advt > h6 {
+  font-size: 0.2rem;
+}
+.advt > p {
+  font-size: 0.2rem;
+  width: 30%;
 }

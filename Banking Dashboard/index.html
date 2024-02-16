@@ -96,63 +96,110 @@
       <div class="container-fluid main">
         <div class="row">
           <!--left side-->
-          <div class="col-lg-4">
-            <h3>Accounts +</h3>
-            <article class="accounts">
-              <h5>$3.524.60</h5>
-              <p>Dollar Account</p>
+          <div class="col-lg-3">
+            <div class="row py-2">
+              <div class="col-lg-3"><h6>Accounts</h6></div>
+              <div class="col text-end">
+                <i class="fa-solid fa-plus align-items-center"></i>
+              </div>
+            </div>
 
-              <span class="badge bg-primary"
-                ><i class="fa-brands fa-cc-visa"></i>9315</span
-              >
-              <span class="badge bg-primary"
-                ><i class="fa-brands fa-cc-mastercard"></i>3412</span
-              >
+            <article class="accounts">
+              <div class="row">
+                <div class="col-lg-10">
+                  <h5>$3.524.60</h5>
+                  <p>Dollar Account</p>
+                  <span class="badge bg-primary" id="bd1"
+                    ><i class="fa-brands fa-cc-visa"></i> &nbsp;9315</span
+                  >
+                  <span class="badge bg-primary" id="bd2"
+                    ><i class="fa-brands fa-cc-mastercard"></i>&nbsp;3412</span
+                  >
+                </div>
+                <div class="col-lg-2">
+                  <i class="fa-solid fa-ellipsis text"></i>
+                </div>
+              </div>
             </article>
             <article class="accounts">
-              <h5>£342.52</h5>
-              <p>Euro Account</p>
+              <div class="row">
+                <div class="col-lg-10">
+                  <h5>£342.52</h5>
+                  <p>Euro Account</p>
 
-              <span class="badge bg-primary"
-                ><i class="fa-brands fa-cc-discover"></i>4565</span
-              >
+                  <span class="badge bg-primary" id="bd3"
+                    ><i class="fa-brands fa-cc-discover"></i>&nbsp;4565</span
+                  >
+                </div>
+                <div class="col-lg-2">
+                  <i class="fa-solid fa-ellipsis text"></i>
+                </div>
+              </div>
             </article>
             <article class="accounts">
-              <h5>£1,676.11</h5>
-              <p>Crypto account</p>
-              <i class="fa-brands fa-bitcoin"></i>
-              <i class="fa-solid fa-litecoin-sign"></i
-              ><i class="fa-brands fa-neos"></i>
+              <div class="row">
+                <div class="col-lg-10">
+                  <h5>£1,676.11</h5>
+                  <p>Crypto account</p>
+                  <span>
+                    <i class="fa-brands fa-bitcoin"></i>
+                    <i class="fa-solid fa-litecoin-sign"></i
+                    ><i class="fa-brands fa-neos"></i>
+                  </span>
+                </div>
+                <div class="col-lg-2">
+                  <i class="fa-solid fa-ellipsis text"></i>
+                </div>
+              </div>
             </article>
-            <i class="fa-regular fa-eye-slash"></i>
-            <p>Hide balance</p>
-            <i class="fa-solid fa-up-down-left-right"></i>
-            <p>Explore</p>
+            <div class="row">
+              <p class="bt-lf">
+                <i class="fa-regular fa-eye-slash"></i> &nbsp;Hide balance
+              </p>
+              <p class="bt-lf">
+                <i class="fa-solid fa-up-down-left-right"></i> &nbsp;Explore
+              </p>
+            </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-9">
             <div class="row">
               <div class="col-lg-6">
                 <form class="py-3 px-4">
                   <input type="search" />
                 </form>
                 <div class="row">
+                  <div class="col-lg-8">
+                    <h4>Actions</h4>
+                  </div>
+                  <div class="col">
+                    <p style="font-size: 0.2rem">
+                      <a href=""> All Actions</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
                   <div class="col">
                     <article>
+                      <div class="row">
+                        <p>Transfer</p>
+                      </div>
                       <i class="fa-solid fa-circle-up"></i>
-                      transfer
                     </article>
                   </div>
                   <div class="col">
                     <article>
+                      <div class="row">
+                        <p>Receive</p>
+                      </div>
                       <i class="fa-solid fa-circle-down"></i>
-                      Receive
                     </article>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col">
                     <article>
-                      Send to Max
+                      <div class="row users"><p>Send to Max</p></div>
+
                       <img
                         src="./images/1.jpg"
                         alt="user image"
@@ -162,7 +209,8 @@
                   </div>
                   <div class="col">
                     <article>
-                      Send to Siya
+                      <div class="row users"><p>Send to Siya</p></div>
+
                       <img
                         src="./images/2.jpg"
                         alt="user image"
@@ -172,23 +220,59 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col-lg-7">
                     <article>
-                      transfers to people
-                      <p>****9314</p>
-                      <img src="./images/gear.svg" alt="settings" />
-                      <p>$7562.12 from $10,000</p>
+                      <div class="row">
+                        <p style="font-size: 0.8rem">
+                          Transfers to people
+                          <img
+                            src="./images/gear.svg"
+                            alt="settings"
+                            class="text-end"
+                          />
+                          ****9314
+                        </p>
+                        <p style="font-size: 0.5rem">
+                          $7562.12
+                          <span
+                            style="
+                              margin-left: 10px;
+                              font-weight: lighter;
+                              font-size: 0.2rem;
+                            "
+                            >from $10k</span
+                          >
+                        </p>
+
+                        <progress id="five" value="90" max="100"></progress
+                        >&nbsp;
+                      </div>
                     </article>
                   </div>
-                  <div class="col">
+                  <div class="col-lg-5">
                     <article>
-                      <p>Spending in June</p>
-                      <p>$12,562.43</p>
+                      <p style="font-size: 0.8rem">
+                        Spending in <b>January</b>
+                      </p>
+
+                      <p style="font-size: 0.3rem">$12,562.43</p>
+                      <a href="#" style="font-size: small">Details</a>
                     </article>
                   </div>
                 </div>
-                <div class="">
-                  <article>advertisement</article>
+                <div class="row">
+                  <article class="advt">
+                    <div class="row">
+                      <div class="col-6">
+                        <h6>Protect your money</h6>
+                        <p>
+                          Set up two-factor authentication to protect the cards
+                          when shoppint
+                        </p>
+                      </div>
+                      <div class="col"><img src="./images/lock.svg" /></div>
+                    </div>
+                  </article>
                 </div>
               </div>
               <div class="col">
