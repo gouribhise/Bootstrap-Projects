@@ -1,11 +1,81 @@
 body {
   background-color: white;
+  font-size: 1vw;
 }
 main {
   background-color: #f4efd7;
   width: 80%;
+  height: 100vh;
   margin: 0 auto;
+}
+@-moz-document url-prefix() {
+  main {
+    height: 100%;
+  }
+}
+#logo {
+  color: #e8775a;
 }
 .form-control {
   border-radius: 25px;
+}
+input {
+  height: 40px;
+}
+#painting {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+button[type="submit"] {
+  background-color: #e8775a;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+button[type="submit"]:hover {
+  background-color: #a0503c;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  color: #e8775a;
+}
+a:hover {
+  color: #a0503c;
+}
+
+.fa-square-facebook,
+.fa-google {
+  font-size: 24px;
+}
+
+.fa-square-facebook {
+  color: blue;
+}
+.fa-google {
+  color: red;
+}
+.fa-google {
+  transition: 500ms;
+}
+
+.brands {
+  background-color: transparent;
+  outline: 0;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 1vw;
+  padding: 10px;
+}
+.brands:hover {
+  background-color: #e8775a;
+  color: white;
+}
+
+.fa-brands:hover {
+  color: white;
 }
