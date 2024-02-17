@@ -1,3 +1,6 @@
+body {
+  font-size: 1rem;
+}
 .companies {
   width: 120px;
   height: 70px;
@@ -10,7 +13,7 @@ header > p {
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 0.4rem;
+
   padding: 1%;
 }
 header > p > a {
