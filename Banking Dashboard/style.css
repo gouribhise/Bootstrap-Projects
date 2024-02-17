@@ -1,6 +1,6 @@
 body {
   background-color: #f6f6f6;
-
+  font-size: 1rem;
   height: 100vh;
 }
 .nav {
@@ -24,7 +24,7 @@ article {
   border-radius: 25px;
 }
 .accounts > div > div > p {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
@@ -35,6 +35,7 @@ article {
 #bd1 {
   background-image: linear-gradient(to right, red, yellow);
 }
+
 #bd2 {
   background-image: linear-gradient(
     to right,
@@ -49,11 +50,18 @@ article {
     rgb(11, 187, 119)
   );
 }
-
+a {
+  color: black;
+  text-decoration: none;
+}
 .fa-cc-visa,
 .fa-cc-mastercard,
 .fa-cc-discover {
-  font-size: 8px;
+  font-size: 24px;
+  margin-right: 7%;
+}
+.badge {
+  font-size: 16px;
 }
 
 .fa-bitcoin {
@@ -69,8 +77,39 @@ article {
   color: black;
 }
 .bt-lf {
-  font-size: xx-small;
+  font-size: small;
 }
+/*search*/
+.form-group {
+  background-color: white;
+  width: 60%;
+  height: 10vh;
+  border-radius: 10px;
+}
+.form-group > input[type="text"] {
+  height: 10vh;
+  border: none;
+  width: 60%;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active {
+  border: none;
+  outline: 0;
+}
+.fa-search {
+  background-color: white;
+  color: lightgray;
+}
+#search-btn {
+  background: white;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
 .user_img {
   border-radius: 50%;
   width: 3vw;
@@ -91,9 +130,12 @@ article {
 }
 .offers > p {
   margin-top: 10px;
-  font-size: 0.1rem;
+  font-size: 1rem;
   color: white;
   font-weight: bold;
+}
+.offers > a {
+  color: white;
 }
 #offer1 {
   background-image: url("images/credit.jpg");
@@ -113,7 +155,24 @@ article {
   background-position: 25% 25%;
   border-radius: 25px;
 }
-
+table > tbody > tr > td > img {
+  width: 34px;
+  border-radius: 25%;
+}
+table > tbody > tr > td:nth-child(2),
+td:nth-child(3) {
+  font-weight: bold;
+}
+table > tbody > tr > td:nth-child(2) > p {
+  font-weight: lighter;
+  font-size: 0.6rem;
+}
+.money_added {
+  color: lightgreen;
+}
+.paid {
+  color: rgb(216, 107, 107);
+}
 #spending::-moz-progress-bar {
   background-image: linear-gradient(
     to right,

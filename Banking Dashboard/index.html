@@ -28,15 +28,16 @@
             href="/"
             class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"
           >
-            <svg
-              class="bi me-2"
+            <img
+              src="./images/logo.png"
               width="40"
               height="32"
               role="img"
               aria-label="Bootstrap"
-            >
-              <use xlink:href="#bootstrap"></use>
-            </svg>
+              style="margin-left: 20px"
+            />
+
+            <use xlink:href="#bootstrap"></use>
           </a>
 
           <ul
@@ -100,7 +101,12 @@
             <div class="row py-2">
               <div class="col-lg-3"><h6>Accounts</h6></div>
               <div class="col text-end">
-                <i class="fa-solid fa-plus align-items-center"></i>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-plus align-items-center"
+                    style="color: #2acff0"
+                  ></i
+                ></a>
               </div>
             </div>
 
@@ -117,7 +123,7 @@
                   >
                 </div>
                 <div class="col-lg-2">
-                  <i class="fa-solid fa-ellipsis text"></i>
+                  <a href="#"><i class="fa-solid fa-ellipsis text"></i></a>
                 </div>
               </div>
             </article>
@@ -132,7 +138,7 @@
                   >
                 </div>
                 <div class="col-lg-2">
-                  <i class="fa-solid fa-ellipsis text"></i>
+                  <a href="#"> <i class="fa-solid fa-ellipsis text"></i></a>
                 </div>
               </div>
             </article>
@@ -148,7 +154,7 @@
                   </span>
                 </div>
                 <div class="col-lg-2">
-                  <i class="fa-solid fa-ellipsis text"></i>
+                  <a href="#"> <i class="fa-solid fa-ellipsis text"></i></a>
                 </div>
               </div>
             </article>
@@ -164,16 +170,24 @@
           <!--mid section-->
           <div class="col-lg-9">
             <div class="row">
-              <div class="col-lg-8">
-                <form class="py-3 px-4">
+              <div class="col-lg-8 py-3 mx-auto">
+                <!-- <form class="py-3 px-4">
                   <input type="search" />
-                </form>
-                <div class="row">
+                </form> -->
+                <div class="form-group fg--search mx-auto">
+                  <button type="submit" id="search-btn">
+                    <i class="fa fa-search"></i>
+                  </button>
+
+                  <input type="text" class="input" placeholder="search" />
+                </div>
+                <!--test search-->
+                <div class="row py-2">
                   <div class="col-lg-8">
                     <h4>Actions</h4>
                   </div>
                   <div class="col">
-                    <p style="font-size: 0.2rem">
+                    <p>
                       <a href=""> All Actions</a>
                     </p>
                   </div>
@@ -283,28 +297,73 @@
               <div class="col">
                 <div class="row py-3">
                   <div class="col-3 offers" id="offer1">
-                    <p>visa issues</p>
+                    <a href="#"> <p>visa issues</p></a>
                   </div>
                   <div class="col-3 offers" id="offer2">
-                    <p>mortage calculator</p>
+                    <a href="#"> <p>mortage calculator</p></a>
                   </div>
                   <div class="col-3 offers" id="offer3">
-                    <p>cashback offers</p>
+                    <a href="#"> <p>cashback offers</p></a>
                   </div>
                 </div>
                 <div class="row">
                   <h5>History</h5>
-                  <article class="px-4">
-                    <h6>Today, 16 Feb</h6>
-                    <p>Store <span>-$40.00</span></p>
-                    <p>Store <span>-$40.00</span></p>
 
-                    <p>Store <span>-$40.00</span></p>
-                    <p>Store <span>-$40.00</span></p>
-                    <h6>Today, 15 Feb</h6>
-                    <p>Store <span>-$40.00</span></p>
-                    <p>Store <span>-$40.00</span></p>
+                  <article>
+                    <h5>Today, 16th Feb</h5>
+                    <table class="table px-4">
+                      <tbody>
+                        <tr>
+                          <td><img src="./images/nike.png" /></td>
+                          <td>
+                            Nike
+                            <p>purchase</p>
+                          </td>
+                          <td class="paid">-$40</td>
+                        </tr>
+                        <tr>
+                          <td><img src="./images/mom.jpg" /></td>
+                          <td>
+                            Mom
+                            <p>received</p>
+                          </td>
+                          <td class="money_added">+$100</td>
+                        </tr>
+
+                        <tr>
+                          <td><img src="./images/Auchan.png" /></td>
+                          <td>
+                            Auchan
+                            <p>purchase</p>
+                          </td>
+                          <td class="paid">-$23</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <h5>15th Feb</h5>
+                    <table class="table px-4">
+                      <tbody>
+                        <tr>
+                          <td><img src="./images/Auchan.png" /></td>
+                          <td>
+                            Auchan
+                            <p>purchase</p>
+                          </td>
+                          <td class="paid">-$23</td>
+                        </tr>
+                        <tr>
+                          <td><img src="./images/apple.png" /></td>
+                          <td>
+                            Apple St
+                            <p>purchase</p>
+                          </td>
+                          <td class="paid">-$900</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </article>
+
                   <button type="button" class="btn btn-outline-info">
                     All Operations
                   </button>
