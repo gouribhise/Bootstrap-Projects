@@ -22,3 +22,21 @@ nav {
   margin-left: 4vw;
   font-weight: lighter;
 }
+article {
+  font-size: 1vw;
+}
+article > p > span {
+  font-weight: bold;
+}
+#about {
+  background-color: lightgray;
+  padding: 7%;
+}
+
+#archives > ul > li {
+  list-style-type: none;
+}
+
+#social > ul > li {
+  list-style-type: none;
+}
