@@ -40,3 +40,17 @@ article > p > span {
 #social > ul > li {
   list-style-type: none;
 }
+
+#subscription {
+  background-color: #abb5d4;
+  padding: 5%;
+  margin-top: 4%;
+  border-radius: 25px;
+}
+#subscribe {
+  width: 60%;
+  outline: 0;
+  border: 0;
+  padding: 2%;
+  border-radius: 10px;
+}
