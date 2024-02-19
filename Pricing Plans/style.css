@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+
+  background: url("./images/background3.jpg");
+  font-size: 1rem;
+}
+
+.pricing {
+  color: white;
+}
+
+.pricing > div {
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+.pr-article {
+  background-color: #2a2a2a;
+  background-image: linear-gradient(#2a2a2a, black, #2a2a2a);
+  margin-bottom: 5%;
+  width: 30vw;
+  padding-bottom: 5%;
+}
+.pr-article > h5 {
+  margin-top: 2vh;
+  text-align: center;
+}
+.pr-article > p {
+  font-size: 1vw;
+  font-weight: lighter;
+}
+.pr-article > h4 {
+  text-align: center;
+}
+.pr-article > h4 > span {
+  color: red;
+}
+
+hr {
+  color: white;
+  border-top: 10px solid white;
+}
+
+ul > li {
+  list-style: none;
+  font-size: 1vw;
+}
+
+.fa-solid {
+  margin-right: 4%;
+}
+.fa-check {
+  color: red;
+}
+
+.fa-lock {
+  color: lightgray;
+}
+
+.gray > li {
+  list-style: none;
+  color: gray;
+  font-size: small;
+}
